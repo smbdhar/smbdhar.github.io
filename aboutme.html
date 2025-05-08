@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sambuddha page</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="hero">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Latest research</a></li>
+                    <li><a href="database.html">Research data</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="japanese.html">日本語</a></li>
+                </ul>
+                <!-- <h2 class="logo">SAMBUDDHA's<span>page</span></h2> -->
+                <ul>
+                    <li class="logoOn"><a href="#"><strong>SAMBUDDHA</strong>'s page</a></li>
+                    <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="research.html">Latest research</a></li>
+                    <li class="hideOnMobile"><a href="database.html">Research data</a></li>
+                    <li class="hideOnMobile"><a href="publications.html">Publications</a></li>
+                    <li class="hideOnMobile"><a href="#">About Me</a></li>
+                    <li class="hideOnMobile"><a href="japanese.html">日本語</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+
+
+            <script>
+                function showSidebar(){
+                    const sidebar=document.querySelector('.sidebar')
+                    sidebar.style.display='flex'
+                }
+                function hideSidebar(){
+                    const sidebar=document.querySelector('.sidebar')
+                    sidebar.style.display='none'
+                }
+            </script>
+        </div>
+
+        <div class="mydiv_aboutme">
+            <br>
+            <h2 align="center">About Me</h2> <br> <br>
+            <h3>Research interest: </h3> <br>
+            <p>I study earthquake-related ground deformation using computer simulation, space geodesy, and experimental rock physics. For the past years, I extensively worked on investigating postseismic deformation of northeastern Japan following the Mw9.0 2011 Tohoku-oki earthquake. I explored the heterogeneous crust-mantle rheology beneath northeastern Japan using GNSS observations. Using the knowledge of heterogeneous rheology, I build prediction models for postseismic ground displacements after the megathrust earthquake. <br><br>
+
+            Keywords: <i>Crustal deformation, Space Geodesy & Geodynamics, Rock rheology. </i>
+            </p> <br>
+
+            <h3> Education: </h3> <br>
+            <ul class="publist">
+            <li> 2022 : <em>Ph.D. Earth Science, Tohoku University </em></li> <br>
+            </ul>
+
+            <h3> Professional experience: </h3> <br>
+            <ul class="publist">
+            <li> Apr. 2025 - Present : <em>Associate Professor, Osaka Metropolitan University </em></li>
+            <li> Apr. 2023 - Mar. 2025 : <em>Assistant Professor (specially appointed), Tohoku University</em></li>
+            <li>Oct. 2022 - Mar. 2023 : <em>Postdoctoral researcher (specially appointed), Tohoku University</em></li><br>
+            </ul>
+
+            <h3> Professional membership: </h3> <br>
+            <ul class="publist"> 
+                <li> Japan Geoscience Union </li>
+                <li> European Geosciences Union </li>
+                <li> American Geophysical Union </li>
+            </ul> <br>
+
+            <h3> Miscellaneous experience: </h3> <br>
+            <ul class="publist"> 
+                <li> Feb 7-16, 2022, Internship, Synspective Inc., Tokyo, Topic: Ground deformation simulation of PS-InSAR application.  </li>
+            </ul> <br>
+
+            <h3> Contact info: </h3> <br>
+            <ul class="publist"> 
+                <p> Sambuddha Dhar <br>
+                    International Research and Education Center (IREC) <br>
+                    Department of Geosciences, Graduate School of Science <br>
+                    Osaka Metropolitan University <br> <br>
+                    3-3-138 Sugimoto, Sumiyoshi-ku,
+                    Osaka 558-8585, Japan <br>
+                    sambuddha.dhar@omu.ac.jp
+                </p><br>
+            </ul> <br>
+
+            <h3> Other links: </h3> <br>
+            <ul class="publist"> 
+                <!-- <p style="font-weight: bold;"> Other links: </p><br> -->
+                <p><a href="https://github.com/smbdhar"><i>GitHub</i></a> </p>
+                <p><a href="https://researchmap.jp/sdhar"><i>researchmap</i></a> </p>
+            </ul> <br>
+
+        </div>
+        <!-- <div class="blank"></div> -->
+        
+        <div class="footer">
+            &#169 2024 Sambuddha Dhar. All rights reserved.
+        </div>
+
+    </body>
+</html>

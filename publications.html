@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sambuddha page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="hero">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Latest research</a></li>
+                    <li><a href="database.html">Research data</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="japanese.html">日本語</a></li>
+                </ul>
+                <!-- <h2 class="logo">SAMBUDDHA's<span>page</span></h2> -->
+                <ul>
+                    <li class="logoOn"><a href="#"><strong>SAMBUDDHA</strong>'s page</a></li>
+                    <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="research.html">Latest research</a></li>
+                    <li class="hideOnMobile"><a href="database.html">Research data</a></li>
+                    <li class="hideOnMobile"><a href="#">Publications</a></li>
+                    <li class="hideOnMobile"><a href="aboutme.html">About Me</a></li>
+                    <li class="hideOnMobile"><a href="japanese.html">日本語</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+
+
+            <script>
+                function showSidebar(){
+                    const sidebar=document.querySelector('.sidebar')
+                    sidebar.style.display='flex'
+                }
+                function hideSidebar(){
+                    const sidebar=document.querySelector('.sidebar')
+                    sidebar.style.display='none'
+                }
+            </script>
+        </div>
+
+        <div class="mydiv_publication">
+            <br> 
+            <h2 align="center">Publications List</h2> <br> <br>
+            <h3> Peer-reviewed publications: </h3> <br>
+            <ul class="publist"> 
+                <li> <strong>Dhar, S.</strong>,  Takada, Y., & Muto, J. (2025). Inferring 3-D rheology of low-viscosity zone around quaternary volcanoes of NE Japan from postseismic deformation of the 2011 Tohoku-Oki earthquake. Journal of Geophysical Research: Solid Earth, 130, e2024JB029939. <a href="https://doi.org/10.1029/2024JB029939 ">https://doi.org/10.1029/2024JB029939</a>.</li>     
+                 
+                <li> <strong>Dhar, S.</strong>, & Muto, J. (2023). Function Model Based on Nonlinear Transient Rheology of Rocks: An Analysis of Decadal GNSS Time Series After the 2011 Tohoku-oki Earthquake. Geophysical Research Letters, 50(9), e2023GL103259. <a href="https://doi.org/10.1029/2023GL103259">https://doi.org/10.1029/2023GL103259</a>.</li>
+
+                <li> <strong>Dhar, S.</strong>, Muto, J., Ohta, Y., & Iinuma, T. (2023). Heterogeneous rheology of Japan subduction zone revealed by postseismic deformation of the 2011 Tohoku-oki earthquake. Progress in Earth and Planetary Science, 10(1), 9. <a href="https://doi.org/10.1186/s40645-023-00539-1">https://doi.org/10.1186/s40645-023-00539-1</a>.</li>
+
+                <li> <strong>Dhar, S.</strong>, Muto, J., Ito, Y., Miura, S., Moore, J. D. P., Ohta, Y., & Iinuma, T. (2022). Along-arc heterogeneous rheology inferred from post-seismic deformation of the 2011 Tohoku-oki earthquake. Geophysical Journal International, 230(1), 202-215. <a href="https://doi.org/10.1093/gji/ggac063">https://doi.org/10.1093/gji/ggac063</a>.</li>
+
+                <li><strong>Dhar, S.</strong>, Rai, A.K. & Nayak, P. (2017). Estimation of seismic hazard in Odisha by remote sensing and GIS techniques. Nat Hazards 86, 695-709, <a href="https://doi.org/10.1007/s11069-016-2712-3">https://doi.org/10.1007/s11069-016-2712-3</a>.</li>
+                <br> <br>
+            </ul>
+                <h3> International conference abstracts: </h3> <br>
+            <ul class="publist">
+                <li><strong>Dhar, S.</strong>, Muto, J., Nishimura, T., (2024) Numerical modeling of forearc deformation of northeastern Japan before and after the 2011 Tohoku-oki earthquake, AGU Annual Meeting 2024, Washinton D.C. December 9, 2024. </li>
+                
+                <li><strong>Dhar, S.</strong>, Muto, J., Nishimura, T., (2024) Importance of transient rheology in forearc deformation of northeastern Japan in megathrust earthquake cycle, International Joint Workshop on Slow-to-Fast Earthquakes 2024, Beppu, September 17-19, 2024. </li>
+
+                <li><strong>Dhar, S.</strong>, and Muto, J.,(2024) Understanding forearc deformation of northeastern Japan in megathrust earthquake cycle with nonlinear rheology, Japan Geoscience Union Meeting 2024, May 30, 2024. </li>
+
+                <li><strong>Dhar, S.</strong>, Takada, Y., and Muto, J., (2024) Rheology of weak lithosphere beneath active volcanoes of NE Japan: Insights from postseismic deformation of 2011 Tohoku-oki earthquake, EGU General Assembly 2024, Vienna, Austria, EGU24-13903, <a href="https://doi.org/10.5194/egusphere-egu24-13903">https://doi.org/10.5194/egusphere-egu24-13903</a>, April 19, 2024 .</li>
+
+                <li><strong>Dhar, S.</strong>, Illuminating heterogeneous crustal movement with anelastic deformation: case studies in NE Japan and SW Taiwan. Workshop, National Cheng Kung University, Taiwan, Oct-26, 2023. </li>
+
+                <li><strong>Dhar, S.</strong>, Takada, Y., Muto, J.: Illuminating low-viscosity zone beneath Quaternary volcanoes by numerical simulation of postseismic deformation of the 2011 Tohoku-oki earthquake, International Joint workshop on Slow-to-fast earthquake workshop 2023, Tokyo. 13-15 July, 2023. </li>
+
+                <li><strong>Dhar, S.</strong>, and Muto, J., Function Model with Power-law Rheology: Prediction of Postseismic GNSS Time Series after the 2011 Tohoku-oki Earthquake, 6th Japan-Taiwan Workshop on Crustal Dynamics (JTWCD6), Kyoto University, June14, 2023. </li>
+
+                <li><strong>Dhar, S.</strong>, Muto, J., Ohta, Y., Iinuma, T., Importance of heterogeneous rheology model for the post- seismic deformation of megathrust earthquake. Japan Geoscience Union Meeting 2023, May 26, 2023. </li>
+
+                <li><strong>Dhar, S.</strong>, Muto, J., Arc-parallel changes of water content inferred from the postseismic deformation of the 2011 Tohoku-oki earthquake, Japan Geoscience Union Meeting 2023, May 21, 2023. </li>
+
+                <li><strong>Dhar, S.</strong>, Importance of heterogeneous rheology in postseismic deformation of the 2011 Tohoku-oki earthquake. ERI Tokyo University, Mar 9, 2023. </li>
+
+                <li><strong>Dhar, S.</strong>, and Muto, J., Predictive decay functions to forecast long-term GNSS time series after the 2011 Tohoku-oki earthquake, Japan Geoscience Union Meeting 2022, May 27, 2022. </li>
+
+                <li>Moore, J., <strong>Dhar, S.</strong>, Muto, J., Sato, D., and Takada, Y., The role of rheological heterogeneities in postseismic deformation, EGU General Assembly 2022, Vienna, Austria, 23-27 May 2022, EGU22- 7627, <a href="https://doi.org/10.5194/egusphere-egu22-7627">https://doi.org/10.5194/egusphere-egu22-7627</a>.</li>
+
+                <li><strong>Dhar, S.</strong>, & Muto, J., Geodetic inference on decadal afterslip following the 2011 Tohoku-oki earth- quake, EGU General Assembly 2022, Vienna, Austria, 23-27 May 2022, EGU22-3457, <a href="https://doi.org/10.5194/egusphere-egu22-3457">https://doi.org/10.5194/egusphere-egu22-3457</a>.</li>
+
+                <li>Moore, J., <strong>Dhar, S.</strong>, Muto, J., Sato, D., Takada, Y., The role of rheological heterogeneities in earthquake deformation, AGU Fall Meeting 2021, December, 2021. <a href="https://ui.adsabs.harvard.edu/abs/2021AGUFMMR35B..16M.">https://ui.adsabs.harvard.edu/abs/2021AGUFMMR35B..16M</a>.</li>
+
+                <li><strong>Dhar, S.</strong>, Muto, J., Ito, Y., Miura, S., Moore, J. D. P., Ohta, Y., and Iinuma, T.: Post-seismic recovery of subsided coastal northeast Japan after the 2011 Tohoku-oki earthquake, EGU General Assembly 2021, online, 19-30 Apr 2021, EGU21-10467, <a href="https://doi.org/10.5194/egusphere-egu21-10467">https://doi.org/10.5194/egusphere-egu21-10467</a>.</li>
+
+                <br>
+            </ul>
+
+        </div>
+
+
+
+        <div class="footer">
+            &#169 2024 Sambuddha Dhar. All rights reserved.
+        </div>
+
+    </body>
+</html>

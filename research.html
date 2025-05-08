@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sambuddha page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="hero">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Latest research</a></li>
+                    <li><a href="database.html">Research data</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="japanese.html">日本語</a></li>
+                </ul>
+                <!-- <h2 class="logo">SAMBUDDHA's<span>page</span></h2> -->
+                <ul>
+                    <li class="logoOn"><a href="#"><strong>SAMBUDDHA</strong>'s page</a></li>
+                    <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="#">Latest research</a></li>
+                    <li class="hideOnMobile"><a href="database.html">Research data</a></li>
+                    <li class="hideOnMobile"><a href="publications.html">Publications</a></li>
+                    <li class="hideOnMobile"><a href="aboutme.html">About Me</a></li>
+                    <li class="hideOnMobile"><a href="japanese.html">日本語</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+
+
+            <script>
+                function showSidebar(){
+                    const sidebar=document.querySelector('.sidebar')
+                    sidebar.style.display='flex'
+                }
+                function hideSidebar(){
+                    const sidebar=document.querySelector('.sidebar')
+                    sidebar.style.display='none'
+                }
+            </script>
+        </div>
+
+        <div class="mydiv_aboutme">
+            <br>
+            <h2 align="center">Latest research</h2> <br> <br>
+            <!-- <h3>This page is under construction </h3> <br> -->
+            
+        </div>
+
+        <div class="myRH" id="Dhar&Muto23GRL">
+            <p style="font-size: small;"><span style="color:red; font-weight: bold;">[New research]</span> Published on 2025-April-12</p> <br>
+            <h4> 3-D rheological model of low-viscosity zone beneath Quaternary volcanoes of NE Japan. </h4> <br>
+            <p style="text-align: justify;">
+                Publication: Dhar, S., Takada, Y., & Muto, J. (2025). Inferring 3-D rheology of low-viscosity zone around quaternary volcanoes of NE Japan from postseismic deformation of the 2011 Tohoku-Oki earthquake. Journal of Geophysical Research: Solid Earth, 130, e2024JB029939. <a href="https://doi.org/10.1029/2024JB029939">https://doi.org/10.1029/2024JB029939</a>. <br><br>
+
+                We studied the three years of GNSS observations after the 2011 Tohoku-oki earthquake. We found several local areas of surface strain contraction around the five Quaternary volcanoes: Mt. Akitakoma, Mt. Kurikoma, Mt. Zao, Mt. Azuma, and Mt. Nasu. To explain these localized surface contractions, we build the 3-D numerical model of the low-viscosity zone (LVZ) beneath the five Quaternary volcanoes. The evidence of LVZ beneath Quaternary volcanoes was indicated by magnetic and resistivity surveys in past studies. Scientists hypothesized that such LVZ causes localized ground deformation in response to the megathrust earthquake. To simulate the time-dependent deformation of viscoelastic LVZ, we used power-law Burgers rheology, which mimics the deformation behavior of mantle minerals such as olivine under laboratory experiments. We determined the shape, depth, viscosity, and arc-parallel dimension of each LVZ model constrained by our observations on the localized surface contraction. The key findings of our research are to infer the arc-parallel heterogeneities in the subsurface rheology along the volcanic front of NE Japan. In addition, we showed that the LVZ may prevail around 15-55 km of depth and vary in shape from volcano to volcano. 
+
+                <br><br>
+                <img src="images/jgrb57212-fig-0003-m.jpg" class="RGimg"> <br>
+                <p style="text-align: center;">Figure: 3-D numerical model of low-viscosity zone beneath five Quaternary volcanoes of NE Japan (Dhar et al, 2025 <i>JGR Solid Earth</i>) </p><br>                
+
+            </p>
+        </div>
+        <p> <br> </p> 
+
+        <div class="myRH" id="Dhar&Muto23GRL">
+            <p style="font-size: small;"><span style="color:red; font-weight: bold;">[New research]</span> Published on 2023-May-03</p> <br>
+            <h4>Physics-based regression model for postseismic GNSS time series </h4> <br>
+            <p style="text-align: justify;">
+                Publication: Dhar, S., & Muto, J. (2023). Function Model Based on Nonlinear Transient Rheology of Rocks: An Analysis of Decadal GNSS Time Series After the 2011 Tohoku-oki Earthquake. Geophysical Research Letters, 50(9), e2023GL103259.
+                <a href="https://doi.org/10.1029/2023GL103259">https://doi.org/10.1029/2023GL103259</a>. <br><br>
+
+                We introduce a physics-based regressional modeling for postseismic GNSS time series of megathrust earthquakes. Physics-based regression modeling refers to formulating a linear regression model (i.e., mathematical equation) where the governing physics of postseismic deformation is embedded into the decay functions. Here, we build the regression model with the physics of transient rock deformation (viscoelastic relaxation and afterslip) for predicting the 10 years of postseismic GNSS time series after the 2011 Tohoku-oki earthquake. We demonstrated the two major advantages of the physics-based regression model: First, it can fit and/or predict postseismic GNSS time series with higher accuracy. Second, it can easily decompose the displacement time series into the components of source deformation processes. 
+
+                <br><br>
+                <img src="images/functionmodel.png" class="RGimg"> <br>
+                <p style="text-align: center;">Figure: Graphics showing the application of physics-based regressional model for the postseismic GNSS time series of the 2011 Tohoku-oki earthquake in northeastern Japan (after Dhar & Muto, 2023 <i>GRL</i>) </p><br>
+            <p> Media cover: <br>
+                <a href="https://www.tohoku.ac.jp/japanese/2023/05/press20230510-02-gnss.html">Tohoku University Press Release</a> <br>
+                <a href="https://kahoku.news/articles/20230622khn000039.html">Kahoku Shimpo E-News</a>
+            </p>
+                
+
+            </p>
+        </div>
+        <p> <br> </p> 
+
+        <div class="myRH" id="Dhar+23SPEPS">
+            <p style="font-size: small;"><span style="color:red; font-weight: bold;">[New research]</span> Published on 2023-Feb-28</p> <br>
+            
+            <h4>How GNSS measurements reveal heterogeneous rheology of northeastern Japan?</h4> <br>
+            <p style="text-align: justify;">Publication: Dhar, S., Muto, J., Ohta, Y., & Iinuma, T. (2023). Heterogeneous rheology of Japan subduction zone revealed by postseismic deformation of the 2011 Tohoku-oki earthquake. Progress in Earth and Planetary Science, 10(1), 9. <a href="https://doi.org/10.1186/s40645-023-00539-1">https://doi.org/10.1186/s40645-023-00539-1</a>.</p><br>
+
+            
+            <p style="text-align: justify;"> The 10 years of GNSS observations after the 2011 Tohoku-oki earthquake indicate a complex pattern of postseismic surface movement around northeastern Japan. Although the horizontal surface motion of northeastern Japan is relatively simple, the vertical motion shows a substantial variation in time and space. Such complexity of postseismic surface movements is the key to understand the heterogeneous crust-mantle rheology beneath northeastern Japan. We reviewed how a decade of postseismic deformation studies unravel the structural heterogeneities of lower crust-upper mantle such as weak-oceanic asthenosphere, backarc upwelling mantle, low-viscosity zone beneath volcanic front, and stagnant “cold nose” in forearc mantle. Besides, we conducted synthetic modeling to investigate why the power-law rheology is often sought for characterizing the spatial heterogeneities of crust-mantle rheology in Japan subduction zone. <br><br>
+            <img src="images/NEJP.png" class="RGimg"> <br>
+            <p style="text-align: center;">Figure: Schematic diagram for heterogeneous rheology of NE Japan revealed by decade-long geodetic observations after the 2011 Tohoku-oki earthquake (Dhar et al., 2023 <i>SPEPS</i>). </p><br>
+
+            </p>
+
+        </div>
+
+        <p> <br> </p> 
+    <!-- <section id="Dhar+22GJI"> -->
+        <div class="myRH" id="Dhar+22GJI">
+            <p style="font-size: small;"><span style="color:red; font-weight: bold;">[New research]</span> Published on 2022-Feb-15</p> <br>
+            <h4>Arc-parallel variation of "cold nose" geometry in northeastern Japan</h4><br>
+            <p style="text-align: justify;">
+                Publication: Dhar, S., Muto, J., Ito, Y., Miura, S., Moore, J. D. P., Ohta, Y., & Iinuma, T. (2022). Along-arc heterogeneous rheology inferred from post-seismic deformation of the 2011 Tohoku-oki earthquake. Geophysical Journal International, 230(1), 202-215.<a href="https://doi.org/10.1093/gji/ggac063">https://doi.org/10.1093/gji/ggac063</a>. <br>
+            </p><br>
+            <p style="text-align: justify;">
+                The GNSS observations after the 2011 Tohoku-oki earthquake show substantial variation in surface deformation patterns between the Miyagi and Fukushima areas. To understand such discrepancies in GNSS observations, we developed a 3-D rheological model incorporating two earthquake-induced processes: viscoelastic relaxation of the Japanese mantle and afterslip on the plate boundary fault. The viscoelastic relaxation and afterslip were modeled using power-law Burgers rheology and rate-strengthening frictional law, respectively. Our model indicates that the cold nose (a stagnant part of the forearc mantle) is narrower in the Miyagi region and wider in the Fukushima region. 
+            </p> <br>
+            <img src="images/Fig10strain.png" class="RGimg"> <br>
+            <p style="text-align: center;">Figure: Total viscous strain (normalized with coseismic strain changes) after 5.2 years of postseismic deformation of the 2011 Tohoku-oki earthquake (Dhar et al., 2022 <i>GJI</i>). A changes in cold-nose geometry between the Miyagi and Fukushima forearc mantle is illustrated. </p><br>
+
+        </div>
+    <!-- </section> -->
+        <p> <br> </p> 
+        <!-- <div class="myRH"></div> -->
+        
+
+        <!-- <div class="blank"></div> -->
+        
+        <div class="footer">
+            &#169 2024 Sambuddha Dhar. All rights reserved. 
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sambuddha's page</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    </head>
+
+    <body>
+        <div class="hero">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="research.html">Latest research</a></li>
+                    <li><a href="database.html">Research data</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="japanese.html">日本語</a></li>
+                </ul>
+                <!-- <h2 class="logo">SAMBUDDHA's<span>page</span></h2> -->
+                <ul>
+                    <li class="logoOn"><a href="#"><strong>Sambuddha</p></strong>'s page</a></li>
+                    <li class="hideOnMobile"><a href="#">Home</a></li>
+                    <li class="hideOnMobile"><a href="research.html">Latest research</a></li>
+                    <li class="hideOnMobile"><a href="database.html">Research data</a></li>
+                    <li class="hideOnMobile"><a href="publications.html">Publications</a></li>
+                    <li class="hideOnMobile"><a href="aboutme.html">About Me</a></li>
+                    <li class="hideOnMobile"><a href="japanese.html">日本語</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+
+
+            <script>
+                function showSidebar(){
+                    const sidebar=document.querySelector('.sidebar')
+                    sidebar.style.display='flex'
+                }
+                function hideSidebar(){
+                    const sidebar=document.querySelector('.sidebar')
+                    sidebar.style.display='none'
+                }
+            </script>
+        </div>
+        
+        <div class="coverphoto">
+             <h1 id="mysub">Earthquake and crustal deformation</h1>
+
+             <div style="position:relative; top: 115px;padding-right: 10px;">
+                <p style="text-align: right;font-family: Cookie;">Welcome to the page of<br> <span style="font-size:x-large; font-weight: bold; ">Sambuddha DHAR</span>
+                </p>
+                <!-- <h2 style="text-align: right;"> Sambuddha DHAR </h2> -->
+             </div>
+
+             <!-- <div class="myname">
+                <p>Welcome to the page of</p>
+                <h2> Sambuddha DHAR </h2>
+             </div>       
+             <div class="photocourtesy">Matogahama Beach, Beppu, Japan &#169 Sambuddha Dhar -->
+
+             </div>     
+        </div>
+        <p> <br> </p> 
+
+        <div class="myRH">
+            <p style="font-size: small;"><span style="font-weight: bold;"># RESEARCH GLIMPSES !!</span></p> <br>
+            <h4>3-D rheological model of low-viscosity zone beneath Quaternary volcanoes of NE Japan </h4> <a href="research.html"><i>Read more...</i> </a> <br>
+            <img src="images/jgrb57212-fig-0003-m.jpg" class="RGimg">
+        </div>
+        <p> <br> </p> 
+        
+        <div class="myRH" style="max-height: 300px; overflow: scroll;">
+            <p style="font-size: small;"><span style="font-weight: bold;">-- Activity Updates -- </span></p> <br>
+
+            2025-Apr-12 &nbsp;&nbsp; <span style="color: red;"> <i> New publication </i></span> <a href="https://doi.org/10.1029/2024JB029939"><i>Read more...</i> </a> <br><br> 
+
+            2024-Dec-09 &nbsp;&nbsp; <span style="color: black;"> <i> Conference presentation, </i></span> AGU24, Washinton D.C. <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1582888"><i>Read more...</i> </a> <br><br> 
+            
+            2024-Apr-19 &nbsp;&nbsp; <span style="color: black;"> <i> Conference presentation, </i></span> EGU24, Vienna, April 19, 2024 <a href="https://doi.org/10.5194/egusphere-egu24-13903"><i>Read more...</i> </a> <br><br>    
+
+            2023-May-10 &nbsp;&nbsp; <span style="color: black;"> <i> Tohoku University Press Release, </i></span><a href="https://www.tohoku.ac.jp/japanese/2023/05/press20230510-02-gnss.html"><i>Read more...</i> </a><br><br>
+
+            2023-May-03 &nbsp;&nbsp; <span style="color: black;"> <i> New publication </i></span> <a href="research.html#Dhar&Muto23GRL"><i>Read more...</i> </a> <br><br>
+
+            2023-Feb-28 &nbsp;&nbsp; <span style="color: black;"> <i> New publication </i></span><a href="research.html#Dhar+23SPEPS"><i>Read more...</i> </a><br><br>
+
+            2022-Feb-30 &nbsp;&nbsp; <span style="color: black;"> <i> New publication </i></span><a href="research.html#Dhar+22GJI"><i>Read more...</i> </a>
+
+        </div>
+        <p> <br> </p> 
+
+        
+        <div class="contactinfo">
+        <div class="container">
+            <div class="contactinfo1">
+                <p style="font-weight: bold;"> Contact info:</p><br>
+                <p> Sambuddha DHAR, sambuddha.dhar@omu.ac.jp <br>
+                    International Research and Education Center (IREC) <br>
+                    Department of Geosciences, Graduate School of Science <br>
+                    Osaka Metropolitan University, Osaka 558-8585, Japan <br>
+                    
+                </p><br>
+            </div>
+
+            <div class="otherlinks1">
+                <p style="font-weight: bold;"> Other links: </p><br>
+                <p><a href="https://github.com/smbdhar"><i>GitHub</i></a> </p>
+                <p><a href="https://researchmap.jp/sdhar"><i>researchmap</i></a> </p>
+            </div>
+        </div>
+        </div>
+        <p> <br> </p> 
+        <!-- <div class="myRH">
+            <p></p>
+        </div> -->
+        <!-- <div class="blank"></div> -->
+
+        <div class="footer">
+            &#169 2024 Sambuddha Dhar. All rights reserved. <br>
+        </div>
+
+    </body>
+</html>
